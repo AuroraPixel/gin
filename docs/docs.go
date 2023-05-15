@@ -25,7 +25,7 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/api/images/page": {
+        "/images/page": {
             "get": {
                 "description": "分页查询数据",
                 "produces": [
@@ -88,7 +88,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/images/upload": {
+        "/images/upload": {
             "post": {
                 "description": "图片上传",
                 "produces": [

@@ -77,7 +77,7 @@ info:
   title: AuroraPixel
   version: "1.0"
 paths:
-  /api/images/page:
+  /images/page:
     get:
       description: 分页查询数据
       parameters:
@@ -113,7 +113,7 @@ paths:
       summary: 分页列表
       tags:
       - 图片
-  /api/images/upload:
+  /images/upload:
     post:
       description: 图片上传
       parameters:

@@ -20,7 +20,7 @@ func (i *ImagesApi) InitController() {
 // @produce json
 // @param images formData file true "图片"
 // @success 200 {object} res.Response{Data=[]imageservice.ImagesVO} "Success Response"
-// @Router /api/images/upload [post]
+// @Router /images/upload [post]
 func (i ImagesApi) Upload(c *gin.Context) {
 	form, err := c.MultipartForm()
 	if err != nil {
@@ -44,7 +44,7 @@ func (i ImagesApi) Upload(c *gin.Context) {
 // @param pageNum query int true "当前页" defualt(0)
 // @param pageSize query int true "页容量" defualt(10)
 // @success 200 {object} res.Response{Data=plugins.PageResult{Data=[]models.BannerModel}} "Success Response"
-// @Router /api/images/page [get]
+// @Router /images/page [get]
 func (i ImagesApi) PageList(c *gin.Context) {
 	var ipage plugins.IPage
 	err := c.ShouldBindQuery(&ipage)

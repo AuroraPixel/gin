@@ -17,7 +17,7 @@
     },
     "host": "gin-production-e55f.up.railway.app",
     "paths": {
-        "/api/images/page": {
+        "/images/page": {
             "get": {
                 "description": "分页查询数据",
                 "produces": [
@@ -80,7 +80,7 @@
                 }
             }
         },
-        "/api/images/upload": {
+        "/images/upload": {
             "post": {
                 "description": "图片上传",
                 "produces": [
