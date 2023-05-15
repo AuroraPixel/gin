@@ -23,7 +23,7 @@ import (
 // @license.name AuroraPixel
 // @license.url https://github.com/AuroraPixel
 
-// @host 127.0.0.1:8080
+// @host gin-production-e55f.up.railway.app
 // @BasePath
 func main() {
 	//解析命令行
